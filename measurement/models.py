@@ -8,7 +8,7 @@ class Sensor(models.Model):
 
 class Measurement(models.Model):
     sensor = models.ForeignKey(Sensor, on_delete=models.CASCADE, related_name='meas')
-    temperature = models.BigIntegerField()
+    temperature = models.CharField(max_length=256)
     date_time = models.DateTimeField()
 
 # TODO: опишите модели датчика (Sensor) и измерения (Measurement)
