@@ -12,3 +12,4 @@ class Measurement1(models.Model):
     date_time = models.DateTimeField()
 
 # TODO: опишите модели датчика (Sensor) и измерения (Measurement)
+

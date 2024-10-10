@@ -30,4 +30,5 @@ class MeasurementUPAPIList(generics.RetrieveUpdateDestroyAPIView):
 class SensorOneAPIList(generics.ListCreateAPIView):
     queryset = Sensor1.objects.all()
     serializer_class = SensorSerializer
+
 # TODO: опишите необходимые обработчики, рекомендуется использовать generics APIView классы:

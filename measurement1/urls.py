@@ -11,3 +11,4 @@ urlpatterns = [
     path('measurement/<pk>/', MeasurementUPAPIList.as_view()),
     # TODO: зарегистрируйте необходимые маршруты
 ]
+
